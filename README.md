@@ -1,63 +1,74 @@
 # 📈 Simple Linear Regression — Energy Prediction
 
-> **Foundational machine-learning project predicting energy consumption from solar-panel area.**
+> **Foundational machine-learning project demonstrating supervised regression from data preparation to prediction and visualization.**
 
-[![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+[![Python](https://img.shields.io/badge/Python-3.12%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![NumPy](https://img.shields.io/badge/NumPy-013243?logo=numpy&logoColor=white)](https://numpy.org/)
 [![Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white)](https://pandas.pydata.org/)
 [![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?logo=matplotlib&logoColor=white)](https://matplotlib.org/)
 
-## 🎯 Overview
+## Overview
 
-This project implements simple linear regression to estimate energy generation/consumption in kWh from panel area. It demonstrates the core ML workflow from data preparation to model training, prediction and visualization.
+This project implements simple linear regression to estimate energy generation/consumption from solar-panel area. It is intentionally compact and focuses on understanding the fundamentals behind supervised regression.
 
-## 🧠 Concepts Demonstrated
+## Concepts Demonstrated
 
 - Data loading and cleaning
 - Feature/target selection
 - Linear regression fundamentals
-- Model training
-- Prediction
-- Visualization and evaluation
+- Model training and prediction
+- Visualization
+- Basic model evaluation concepts
 
-## 🔄 Workflow
+## Workflow
 
 ```text
-Dataset → Clean Data → Select Features → Train Regression → Predict → Visualize/Evaluate
+Dataset → Clean Data → Select Features → Train Regression → Predict → Visualize / Evaluate
 ```
 
-## 🛠️ Technology Stack
+## Repository Structure
 
-Python · NumPy · Pandas · Matplotlib
+```text
+simple_linear_regression_model/
+├── linear_regression.ipynb   # Main experiment and walkthrough
+├── README.md
+├── LICENSE
+└── .gitignore
+```
 
-## 🚀 Getting Started
+## Tech Stack
+
+Python · NumPy · Pandas · Matplotlib · Jupyter Notebook
+
+## Getting Started
 
 ```bash
 git clone https://github.com/aizaz512/simple_linear_regression_model.git
 cd simple_linear_regression_model
-pip install -r requirements.txt
 ```
 
-Run the project's Python training/inference script from the repository.
+Open `linear_regression.ipynb` in Jupyter or VS Code and run the cells in order.
 
-## 💼 Portfolio Value
+## Portfolio Value
 
-A compact demonstration of the mathematical and engineering fundamentals behind supervised regression, useful as a foundation for more advanced ML pipelines.
+A compact foundation for understanding how regression models learn relationships between numerical features and targets before moving to larger production ML systems.
 
-## 🔮 Future Improvements
+## Future Improvements
 
-- Add train/test split documentation
-- Add regression metrics
+- Add an explicit train/test split
+- Report MAE, MSE, RMSE, and R²
 - Add reproducible experiment configuration
 - Add automated tests
-- Add a small prediction API
+- Expose predictions through a small API
 
-## 👤 Author
+## Author
 
-**Aizaz Ur Rahman** — Python Developer & AI/ML Engineer
+**Sahibzada Aizaz Ur Rahman**  
+Python Developer | AI/ML Engineer
 
-[GitHub](https://github.com/aizaz512) · [All Projects](https://github.com/aizaz512?tab=repositories)
+- GitHub: https://github.com/aizaz512
+- Portfolio: https://github.com/aizaz512/sahibzada-portfolio
 
----
+## License
 
-⭐ A foundational ML project demonstrating supervised learning fundamentals.
+MIT
